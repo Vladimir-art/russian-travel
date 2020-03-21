@@ -1,0 +1,6 @@
+@import url(../__paragraph/place__paragraph.css);
+
+.place__paragraphs :first-child {
+  margin-bottom: 36px;
+}
+

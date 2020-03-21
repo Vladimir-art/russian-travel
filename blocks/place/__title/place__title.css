@@ -1,0 +1,10 @@
+.place__title {
+  margin: 0;
+  max-width: 457px;
+  min-height: 133px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.0625rem;
+}
