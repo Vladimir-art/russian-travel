@@ -1,0 +1,7 @@
+
+
+.intro__content {
+  max-width: 683px;
+  display: flex;
+  flex-direction: column;
+}
