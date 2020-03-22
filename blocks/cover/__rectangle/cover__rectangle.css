@@ -1,0 +1,7 @@
+.cover__reactangle {
+  width: 100%;
+  height: 594px;
+  background-color: black;
+  background-size: cover;
+  opacity: .3;
+}

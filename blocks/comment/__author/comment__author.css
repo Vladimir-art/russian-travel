@@ -1,0 +1,10 @@
+.comment__author {
+  width: 100%;
+  margin: 0;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}

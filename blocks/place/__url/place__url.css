@@ -9,3 +9,8 @@
   text-decoration-line: underline;
   color: #fff;
 }
+
+.place__url:hover {
+  opacity: .6;
+  transition: .1s linear;
+}

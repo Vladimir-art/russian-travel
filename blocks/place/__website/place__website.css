@@ -2,8 +2,11 @@
 @import url(../__url/place__url.css);
 
 .place__website {
+  min-height: 133px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
+  margin-bottom: 60px;
 }
+

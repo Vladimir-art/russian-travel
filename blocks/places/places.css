@@ -1,4 +1,8 @@
 .places {
   max-width: 984px;
-  margin: 0 auto;
+  margin: 0 auto 102px;
+}
+
+.places :last-child {
+  margin-bottom: 0;
 }

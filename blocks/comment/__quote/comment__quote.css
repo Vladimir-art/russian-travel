@@ -1,0 +1,10 @@
+.comment__quote {
+  width: 100%;
+  margin: 0 0 24px;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}

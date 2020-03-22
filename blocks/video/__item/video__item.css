@@ -1,0 +1,18 @@
+@import url(../__icon/video__icon.css);
+@import url(../__duration/video__duration.css);
+@import url(../__title/video__title.css);
+@import url(../__subtitle/video__subtitle.css);
+@import url(../__link/video__link.css);
+@import url(../__image-link/video__image-link.css);
+
+.video__item {
+  width: 49%;
+  background-color: #2A2C2F;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+.video__item:hover .video__link .video__image-link {
+  opacity: .3;
+  transition: .2s ease-in-out;
+}

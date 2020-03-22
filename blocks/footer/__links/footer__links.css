@@ -1,0 +1,10 @@
+@import url(../__link/footer__link.css);
+
+.footer__links {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links :last-child {
+  margin: 0;
+}

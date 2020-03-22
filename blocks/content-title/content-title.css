@@ -1,0 +1,11 @@
+.content-title {
+  max-width: 800px;
+  font-family: "Inter";
+  align-self: center;
+  margin: 0 0 48px;
+  text-align: center;
+  line-height: 4.875rem;
+  font-size: 4.5rem;
+  font-weight: 900;
+}
+
