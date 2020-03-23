@@ -3,6 +3,7 @@
 .video {
   max-width: 1184px;
   margin: 0 auto 102px;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;

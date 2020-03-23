@@ -10,3 +10,10 @@
   font-size: 0.8125rem;
   line-height: 1.25rem;
 }
+
+@media screen and (max-width: 375px) {
+  .intro__text {
+    font-size: 0.75rem;
+    line-height: 1.1875rem;
+  }
+}

@@ -4,6 +4,14 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 2rem;
-  line-height: 2.1875rem;
+  font-size: 3.375rem;
+  line-height: 3.6875rem;
+}
+
+@media screen and (max-width: 375px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    margin: 0 0 32px;
+  }
 }

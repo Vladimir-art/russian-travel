@@ -8,3 +8,11 @@
   font-size: 0.875rem;
   line-height: 1.5rem;
   }
+
+  @media screen and (max-width: 375px) {
+    .intro__content-row {
+      font-size: 1rem;
+      line-height: 1.6875rem;
+      margin: 0 0 32px;
+    }
+  }

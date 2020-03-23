@@ -6,5 +6,21 @@
 .lead {
   margin: 0 auto 80px;
   max-width: 985px;
-  min-height: 950px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .lead {
+    margin: 0 auto 64px;
+  }
 }
