@@ -7,3 +7,32 @@
   font-size: 1.125rem;
   line-height: 1.875rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    margin: 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 1rem;
+  line-height: 1.6875rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__paragraph {
+    padding: 0 5%;
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}

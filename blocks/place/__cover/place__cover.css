@@ -6,5 +6,24 @@
   max-width: 460px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+
+@media screen and (max-width: 1024px) {
+  .place__cover {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__cover {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__cover {
+    max-width: 100%;
+    margin-bottom: 24px;
+  }
 }
