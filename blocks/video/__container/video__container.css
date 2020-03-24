@@ -6,3 +6,27 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+  .video__container :nth-of-type(2) .video__icon {
+    margin: 24px 0 17px 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 408px;
+
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__container :nth-of-type(2) .video__icon {
+    margin: 16px 0 23px 16px;
+    width: 41px;
+    height: 41px;
+  }
+}

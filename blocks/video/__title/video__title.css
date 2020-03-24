@@ -1,9 +1,9 @@
 .video__title {
-  margin: 0;
+  grid-row: 3/4;
+  grid-column: 1/2;
   max-width: 322px;
-  position: absolute;
-  top: 189px;
-  left: 30px;
+  margin: 0 0 18px 30px;
+  white-space: pre-wrap;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
@@ -12,3 +12,22 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .video__title {
+    margin: 0 0 12px 24px;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__title {
+    margin: 0 0 12px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__title {
+    margin: 0 0 12px 16px;
+  }
+}

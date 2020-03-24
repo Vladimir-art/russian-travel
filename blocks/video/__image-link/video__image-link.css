@@ -1,5 +1,18 @@
 .video__image-link {
   width: 100%;
   background-size: cover;
-  opacity: .5;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__image-link {
+    height: 288px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__image-link {
+    height: 200px;
+  }
 }

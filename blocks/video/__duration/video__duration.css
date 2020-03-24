@@ -1,8 +1,7 @@
 .video__duration {
-  margin: 0;
-  position: absolute;
-  top: 165px;
-  left: 30px;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  margin: 0 0 12px 30px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -12,3 +11,14 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .video__duration {
+    margin: 0 0 8px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__duration {
+    margin: 0 0 8px 16px;
+  }
+}

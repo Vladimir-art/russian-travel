@@ -9,3 +9,25 @@
   font-weight: 900;
 }
 
+@media screen and (max-width: 768px) {
+  .content-title {
+    max-width: 600px;
+    font-size: 2.625rem;
+    line-height: 2.875rem;
+    margin: 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .content-title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    margin: 0 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content-title {
+    hyphens: auto;
+  }
+}

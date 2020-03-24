@@ -8,12 +8,16 @@
 .video__item {
   width: 49%;
   background-color: #2A2C2F;
-  position: relative;
-  background-size: cover;
-  overflow: hidden;
+  display: grid;
 }
 
 .video__item:hover .video__link .video__image-link {
   opacity: .3;
   transition: .2s ease-in-out;
+}
+
+@media screen and (max-width: 375px) {
+  .video__item {
+    width: 100%;
+  }
 }
