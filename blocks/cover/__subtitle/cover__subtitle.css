@@ -13,3 +13,25 @@
   justify-self: center;
   z-index: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin: 0 0 40px 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__subtitle {
+    max-width: 343px;
+    padding: 0 10%;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    margin: 0 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    padding: 0;
+  }
+}

@@ -2,3 +2,21 @@
   width: 100%;
   opacity: .7;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__image-bg {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__image-bg {
+    height: 272px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__image-bg {
+    height: 216px;
+  }
+}

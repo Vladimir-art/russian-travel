@@ -13,3 +13,9 @@
   opacity: .5;
   transition: .2s linear;
 }
+
+@media screen and (max-width: 375px) {
+  .cover {
+    margin: 0 auto 64px;
+  }
+}

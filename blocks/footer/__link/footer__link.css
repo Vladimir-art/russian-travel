@@ -5,11 +5,25 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 41px;
+  font-size: 1.5rem;
+  line-height: 1.6875rem;
 }
 
 .footer__link:hover {
   opacity: .6;
   transition: .1s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 1rem;
+    line-height: 1.6875rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__link {
+    font-size: 1.5rem;
+    line-height: 2.5625rem;
+  }
 }
