@@ -1,5 +1,6 @@
 @import url(../blocks/vendor/normalize.css);
 @import url(../blocks/fonts/fonts.css);
+@import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/lead/lead.css);
@@ -14,16 +15,3 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
 
-
-
-
-html {
-  font-size: 16px;
-}
-
-
-
-
-/* *, img, h3 {
-  border: 1px solid red;
-} */
