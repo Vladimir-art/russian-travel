@@ -1,3 +1,5 @@
+@import url(../__image-bg/cover__image-bg.css);
+
 .cover__link {
   width: 100%;
   grid-row: 1/2;

@@ -4,5 +4,19 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    max-width: 382px;
+    min-height: 806px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments__container {
+    margin-top: 24px;
+  }
 }
