@@ -1,21 +1,17 @@
 .place__paragraph {
   margin: 0 0 36px;
-  max-width: 484px;
+  width: 100%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 1.875rem;
+  text-align: left;
 }
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     margin: 0 0 24px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
     max-width: 456px;
   }
 }
@@ -24,15 +20,15 @@
   .place__paragraph {
     max-width: 352px;
     font-size: 1rem;
-  line-height: 1.6875rem;
+    line-height: 1.6875rem;
   }
 }
 
 @media screen and (max-width: 375px) {
   .place__paragraph {
-    padding: 0 5%;
-    max-width: 100%;
+    width: 90%;
     font-size: 1rem;
     line-height: 1.6875rem;
+    margin: 0 auto 24px;
   }
 }

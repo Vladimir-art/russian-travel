@@ -2,15 +2,15 @@
 @import url(./__paragraphs/place__paragraphs.css);
 
 .place {
-  margin: 0 0 72px;
+  margin: 0 auto 72px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 375px) {
   .place {
-    max-width: 100%;
-    margin: 0 0 48px;
+    width: 100%;
+    margin: 0 auto 48px;
+    flex-direction: column;
   }
 }
