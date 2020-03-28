@@ -1,0 +1,14 @@
+@import url(../__image/place__image.css);
+@import url(../__paragraphs/place__paragraphs.css);
+
+.place__information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .place__information {
+     flex-direction: column;
+  }
+}

@@ -3,22 +3,24 @@
 @import url(./__author/comment__author.css);
 
 .comment {
-  max-width: 382px;
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .comment {
-    max-width: 296px;
+    width: 57%;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .comment {
-    max-width: 382px;
-    flex-direction: column-reverse;
-    align-items: center;
+    width: 100%;
+    margin: 0 auto 48px;
   }
 }

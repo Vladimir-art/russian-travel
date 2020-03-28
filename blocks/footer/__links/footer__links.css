@@ -1,13 +1,15 @@
-@import url(../__link/footer__link.css);
-
 .footer__links {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .footer__links {
     flex-direction: column;
+  }
+  .footer__links :last-child {
+    margin: 0;
   }
 }

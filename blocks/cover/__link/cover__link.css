@@ -1,7 +1,7 @@
-@import url(../__image-bg/cover__image-bg.css);
-
 .cover__link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  grid-row: 1/2;
-  grid-column: 1/4;
+  text-decoration: none;
+  color: #fff;
 }

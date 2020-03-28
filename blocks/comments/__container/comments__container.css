@@ -1,5 +1,3 @@
-@import url(../../comment/comment.css);
-
 .comments__container {
   width: 100%;
   display: flex;
@@ -8,8 +6,6 @@
 
 @media screen and (max-width: 768px) {
   .comments__container {
-    max-width: 382px;
-    min-height: 806px;
     flex-direction: column;
     align-items: center;
   }
