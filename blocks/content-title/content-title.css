@@ -9,7 +9,7 @@
   font-weight: 900;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px) {
   .content-title {
     max-width: 600px;
     font-size: 2.625rem;
@@ -18,16 +18,10 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
   .content-title {
     font-size: 2rem;
     line-height: 2.1875rem;
     margin: 0 0 25px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .content-title {
-    hyphens: auto;
   }
 }
