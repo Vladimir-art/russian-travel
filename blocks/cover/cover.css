@@ -9,7 +9,7 @@
 }
 
 .cover:hover .cover__image-bg {
-  opacity: .5;
+  opacity: .6;
   transition: .2s linear;
 }
 
