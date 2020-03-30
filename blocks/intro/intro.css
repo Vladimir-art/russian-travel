@@ -1,27 +1,32 @@
 @import url(./__content/intro__content.css);
+@import url(./__title/intro__title.css);
+@import url(./__content-row/intro__content-row.css);
+@import url(./__text/intro__text.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro {
   max-width: 985px;
-  margin: 0 auto 102px;
+  margin: 0 auto 93px;
 }
 
-@media screen and (max-width: 1279px) and (max-width: 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
   .intro {
     max-width: 928px;
+    margin: 0 auto 102px;
   }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .intro {
     max-width: 720px;
-    margin: 0 auto 97px;
+    margin: 0 auto 94px;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 375px) {
   .intro {
     width: 91%;
-    margin: 0 auto 64px;
+    margin: 0 auto 67px;
   }
 }
 

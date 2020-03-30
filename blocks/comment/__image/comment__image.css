@@ -8,6 +8,12 @@
 @media screen and (max-width: 768px) {
   .comment__image {
     order: 1;
-    margin-bottom: 16px;
+    margin: 15px 0 15px 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comment__image {
+    margin: 0 0 15px 0;
   }
 }

@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .comment__quote {
     font-size: 1rem;
     line-height: 1.4375rem;
@@ -27,5 +27,6 @@
 @media screen and (max-width: 767px) and (min-width: 375px) {
   .comment__quote {
     max-width: 382px;
+    line-height: 1.45rem;
   }
 }

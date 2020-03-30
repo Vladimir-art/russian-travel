@@ -1,5 +1,5 @@
 .lead__subtitle {
-  margin: 0 auto 78px;
+  margin: 0 auto 69px;
   max-width: 60%;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     max-width: 85%;
-    margin: 0 auto 78px;
+    margin: 0 auto 73px;
   }
 }
 

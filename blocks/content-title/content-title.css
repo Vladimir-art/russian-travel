@@ -2,7 +2,7 @@
   max-width: 800px;
   font-family: "Inter", Arial, sans-serif;
   align-self: center;
-  margin: 0 0 48px;
+  margin: 0 0 32px;
   text-align: center;
   line-height: 4.875rem;
   font-size: 4.5rem;
@@ -14,7 +14,7 @@
     max-width: 600px;
     font-size: 2.625rem;
     line-height: 2.875rem;
-    margin: 0 0 24px;
+    margin: 0 0 34px;
   }
 }
 
@@ -22,7 +22,7 @@
   .content-title {
     font-size: 2rem;
     line-height: 2.1875rem;
-    margin: 0 0 16px;
+    margin: 0 0 25px;
   }
 }
 

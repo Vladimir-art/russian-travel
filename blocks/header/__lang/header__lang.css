@@ -19,9 +19,10 @@
 @media screen and (max-width: 375px) {
   .header__lang {
     font-size: 1.125rem;
-  line-height: 1.0625rem;
+    line-height: 1.0625rem;
+    padding-bottom: 7px;
   }
   .header__lang :first-child {
-    margin-right: 16px;
+    margin-right: 24px;
   }
 }

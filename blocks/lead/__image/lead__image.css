@@ -1,23 +1,33 @@
 .lead__image {
   width: 100%;
-  background-size: contain;
+  background-size: 100% 100%;
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
   .lead__image {
     margin-bottom: 16px;
+    height: 558px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) and (min-width: 768px){
   .lead__image {
     width: 100%;
+    height: 420px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) and (min-width: 375px){
+  .lead__image {
+    width: 100%;
+    height: 211px;
+  }
+}
+
+@media screen and (max-width: 374px) and (min-width: 320px) {
   .lead__image {
     margin-bottom: 8px;
+    height: 211px;
   }
 }

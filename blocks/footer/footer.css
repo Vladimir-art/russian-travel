@@ -1,7 +1,8 @@
 @import url(./__navigation/footer__navigation.css);
 @import url(./__links/footer__links.css);
+@import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
-@import url(./__link/_white/footer__link_white.css);
+@import url(./__color/footer__color.css);
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
@@ -16,19 +17,19 @@
 
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
   .footer {
-    max-width: 90%;
+    max-width: 929px;
   }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .footer {
-    max-width: 94%;
+    max-width: 722px;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
   .footer {
-    width: 91%;
+    width: 343px;
     flex-direction: column;
     align-items: flex-start;
     padding-bottom: 24px;

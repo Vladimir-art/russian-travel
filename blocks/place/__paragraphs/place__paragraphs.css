@@ -1,5 +1,3 @@
-@import url(../__paragraph/place__paragraph.css);
-
 .place__paragraphs {
   max-width: 484px;
   display: flex;

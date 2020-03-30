@@ -2,7 +2,7 @@
 
 .photo-grid {
   max-width: 1184px;
-  margin: 0 auto 92px;
+  margin: 0 auto 101px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   grid-template-rows: repeat(auto-fill, 188px);
@@ -15,7 +15,7 @@
     grid-template-columns: repeat(auto-fill, 300px);
     grid-template-rows: repeat(auto-fill, 200px);
     grid-gap: 14px;
-    margin: 0 auto 102px;
+    margin: 0 auto 116px;
   }
 }
 
@@ -25,6 +25,7 @@
     grid-template-columns: repeat(auto-fill, 352px);
     grid-template-rows: repeat(auto-fill, 234px);
     grid-gap: 16px;
+    margin: 0 auto 106px;
   }
 }
 
@@ -34,7 +35,7 @@
     grid-template-columns: repeat(auto-fill, 343px);
     grid-template-rows: repeat(auto-fill, 232px);
     grid-gap: 16px;
-    margin: 0 auto 64px;
+    margin: 0 auto 66px;
   }
 }
 
@@ -44,5 +45,6 @@
     grid-template-columns: repeat(auto-fill, 288px);
     grid-template-rows: repeat(auto-fill, 192px);
     grid-gap: 8px;
+    margin: 0 auto 66px;
   }
 }
